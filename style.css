@@ -54,3 +54,15 @@ span{
     margin-top: 10px;
     display: block;
 }
+@media screen and (max-width: 600px) {
+    form input{
+        height: 30px;
+        width: 220px;
+        font-size: 12px;
+    }
+    form button{
+        height: 30px;
+        width: 60px;
+        font-size: 12px;
+    }
+}
